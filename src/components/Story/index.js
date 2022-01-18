@@ -1,13 +1,14 @@
 import React from 'react';
 import { View,Text } from 'react-native';
 import ProfilePicture from '../ProfilePicture';
+import styles from './styles';
+
 
 const Story = ({imageUri, name}) => (
-    <View>
+    <View style={styles.container}>
         <ProfilePicture uri={imageUri}/>
-        <Text>{name}</Text>
+        <Text>{styles.name}</Text>
     </View>
 
 )
-
 export default Story;

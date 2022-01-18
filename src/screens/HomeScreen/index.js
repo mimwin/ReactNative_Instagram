@@ -6,7 +6,6 @@ import Stories from '../../components/Stories';
 const HomeScreen =() => {
 
     <>
-        <Text>Hello World</Text>
         <Stories />
     </>
 
